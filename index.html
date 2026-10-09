@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Mukul Raj — Full Stack Developer | AI & Automation</title>
+  <meta name="description" content="Portfolio of Mukul Raj – Full Stack Developer, AI & Automation Specialist and Performance Marketing Enthusiast. Angular, .NET, Python." />
+  <meta name="theme-color" content="#07060d" />
+  <meta property="og:title" content="Mukul Raj — Full Stack Developer | AI & Automation" />
+  <meta property="og:description" content="High-scale real estate & e-commerce platforms with Angular, .NET and Python, plus AI automation and performance marketing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/mukul-hero.jpg" />
+  <link rel="icon" type="image/jpeg" href="assets/img/avatar.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Mukul Raj","jobTitle":"Full Stack Developer","worksFor":{"@type":"Organization","name":"Maxim Realty Advisors"},"address":{"@type":"PostalAddress","addressLocality":"Bangalore","addressCountry":"IN"},"email":"mailto:mukulraj123cs@gmail.com","sameAs":["https://github.com/mukul7654","https://www.linkedin.com/in/mukul-raj-242333225/","https://leetcode.com/u/Mukulraj123cs/"]}
+  </script>
+</head>
+<body class="loading">
+  <a class="skip" href="#home">Skip to content</a>
+
+  <!-- PRELOADER -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-logo">M<span>R</span></div>
+      <div class="loader-bar"><i id="loaderBar"></i></div>
+      <div class="loader-num"><span id="loaderNum">0</span>%</div>
+    </div>
+  </div>
+
+  <div class="progress" id="progress"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="brand" aria-label="Mukul Raj home">
+      <img src="assets/img/avatar.jpg" alt="" width="38" height="38" />
+      <span>Mukul<i>.</i></span>
+    </a>
+    <nav class="nav-pill" aria-label="Main">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#freelance">Freelance</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="assets/Mukul_Raj_Resume.pdf" download class="btn btn-sm btn-glow magnetic">Resume</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer-links">
+      <a href="#home"><small>01</small>Home</a>
+      <a href="#about"><small>02</small>About</a>
+      <a href="#skills"><small>03</small>Skills</a>
+      <a href="#experience"><small>04</small>Experience</a>
+      <a href="#projects"><small>05</small>Projects</a>
+      <a href="#freelance"><small>06</small>Freelance</a>
+      <a href="#contact"><small>07</small>Contact</a>
+    </nav>
+    <div class="drawer-foot">
+      <div class="socials" data-socials></div>
+      <a href="assets/Mukul_Raj_Resume.pdf" download class="btn btn-glow">Download resume</a>
+    </div>
+  </div>
+
+  <!-- SIDE SOCIAL RAIL (desktop) -->
+  <aside class="rail" aria-label="Social links">
+    <div class="socials vertical" data-socials></div>
+    <span class="rail-line"></span>
+  </aside>
+
+  <!-- MOBILE DOCK -->
+  <div class="dock" aria-label="Quick links">
+    <div class="socials" data-socials></div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal-up"><span class="pulse"></span> FULL STACK + AI SPECIALIST · AVAILABLE</p>
+          <h1 class="name" id="heroName" aria-label="Mukul Raj">Mukul Raj</h1>
+          <p class="role reveal-up">I'm a <span class="typed" id="typed"></span><span class="caret"></span></p>
+          <p class="lead reveal-up">I build high-scale <b>Real Estate</b> &amp; <b>E&#8209;commerce</b> platforms with <b>Angular</b>, <b>.NET</b> and <b>Python</b> — combining AI automation, performance marketing and clean full-stack engineering.</p>
+          <div class="hero-actions reveal-up">
+            <a href="#projects" class="btn btn-glow magnetic">View my work <span class="arr">→</span></a>
+            <a href="#contact" class="btn btn-outline magnetic">Let's connect</a>
+          </div>
+          <div class="hero-links reveal-up">
+            <span class="hl-label">Find me on</span>
+            <div class="socials" data-socials></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="orbit o1"></div><div class="orbit o2"></div>
+          <div class="photo tilt" data-tilt>
+            <img src="assets/img/mukul-hero.jpg" alt="Mukul Raj, Full Stack Developer" width="1728" height="2160" fetchpriority="high" />
+            <div class="photo-shine"></div>
+          </div>
+          <div class="float-card code-card">
+            <div class="dots"><i></i><i></i><i></i></div>
+<pre><span class="k">const</span> dev = {
+  name: <span class="s">"Mukul"</span>,
+  role: <span class="s">"Full Stack + AI"</span>,
+  stack: <span class="s">"Angular · .NET · Python"</span>
+};</pre>
+          </div>
+          <div class="float-card chip-card c1"><span class="ico">📍</span><div><b>Bangalore</b><small>India</small></div></div>
+          <div class="float-card chip-card c2"><span class="ico">🤖</span><div><b>~70%</b><small>AI content savings</small></div></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero-stats">
+          <div class="hs"><b data-count="4" data-suffix="+">0</b><span>Live platforms</span></div>
+          <div class="hs"><b data-count="300" data-suffix="+">0</b><span>SEO pages</span></div>
+          <div class="hs"><b data-count="70" data-prefix="~" data-suffix="%">0</b><span>AI content savings</span></div>
+          <div class="hs"><b data-count="3" data-suffix="+">0</b><span>Years experience</span></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="head">
+          <p class="kicker reveal-up"><span>01</span> About me</p>
+          <h2 class="reveal-up">Building products that <em>convert</em> &amp; systems that <em>scale</em>.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-media reveal-left">
+            <div class="about-img tilt" data-tilt>
+              <img src="assets/img/mukul-about.jpg" alt="Mukul Raj in a white shirt" loading="lazy" width="1728" height="2160" />
+            </div>
+            <div class="badge-spin" aria-hidden="true">
+              <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs><text><textPath href="#circ">FULL STACK · AI · AUTOMATION · </textPath></text></svg>
+              <b>MR</b>
+            </div>
+          </div>
+          <div class="about-copy">
+            <h3 class="reveal-up">Full Stack Developer &amp; AI Specialist</h3>
+            <p class="reveal-up">I'm a Full Stack Developer &amp; Assistant Manager with 3+ years building high-scale Real Estate and E-commerce platforms using Angular, .NET/ASP.NET and Python.</p>
+            <p class="reveal-up">I specialize in AI-assisted development (GitHub Copilot, OpenAI API), prompt engineering, workflow automation and CRM integrations. I also run performance marketing (Google Ads, Meta Ads), GTM tracking and technical SEO so product and growth stay connected.</p>
+            <p class="reveal-up">Alongside full-time roles I take on <b>freelance projects</b> — attendance systems, travel platforms, repair management tools and custom web apps for clients — handling architecture, backend, UI and deployment end-to-end.</p>
+            <div class="bento">
+              <div class="bx reveal-up spot"><span>⚡</span><b>AI-first delivery</b><small>Copilot + OpenAI in daily workflow</small></div>
+              <div class="bx reveal-up spot"><span>📊</span><b>Closed-loop marketing</b><small>GTM → Ads → product events</small></div>
+              <div class="bx reveal-up spot"><span>🔗</span><b>CRM &amp; pipelines</b><small>Lead dedupe &amp; REST sync</small></div>
+              <div class="bx reveal-up spot"><span>🎯</span><b>Performance mindset</b><small>Core Web Vitals &amp; SEO</small></div>
+            </div>
+            <div class="now reveal-up spot">
+              <span class="pulse"></span>
+              <div><small>CURRENTLY</small><b>Assistant Manager @ Maxim Realty</b><em>Leading maximrealty.in &amp; AI-powered growth systems</em></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="head center">
+          <p class="kicker reveal-up"><span>02</span> Skills &amp; technology</p>
+          <h2 class="reveal-up">What I <em>work with</em></h2>
+          <p class="sub reveal-up">Frontend, backend, AI automation and performance marketing — used together on real production systems.</p>
+        </div>
+        <div class="skill-grid" id="skillGrid"></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="head">
+          <p class="kicker reveal-up"><span>03</span> Experience</p>
+          <h2 class="reveal-up">Professional <em>journey</em></h2>
+        </div>
+        <div class="timeline" id="timeline"><span class="t-line"><i id="tLine"></i></span></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="head">
+          <p class="kicker reveal-up"><span>04</span> Projects</p>
+          <h2 class="reveal-up">Selected work &amp; <em>live systems</em></h2>
+          <p class="sub reveal-up">Production platforms, AI tools and full-stack applications. Open any live site or browse the code on GitHub.</p>
+        </div>
+        <div class="filters reveal-up" id="filters" role="tablist" aria-label="Project filters"></div>
+        <div class="project-grid" id="projectGrid"></div>
+        <div class="gh-cta reveal-up">
+          <p>More code, experiments and side projects live on my profiles.</p>
+          <div class="gh-cta-links" data-pills></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREELANCE -->
+    <section class="section" id="freelance">
+      <div class="container">
+        <div class="head center">
+          <p class="kicker reveal-up"><span>05</span> Freelance &amp; client work</p>
+          <h2 class="reveal-up">Independent <em>projects</em></h2>
+          <p class="sub reveal-up">Alongside full-time roles I deliver end-to-end freelance solutions — from requirements to deployment.</p>
+        </div>
+        <div class="free-grid" id="freeGrid"></div>
+        <div class="free-cta reveal-up">
+          <p>Open to freelance full-stack, AI automation and performance marketing projects.</p>
+          <a href="#contact" class="btn btn-glow magnetic">Discuss a project <span class="arr">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION + ACHIEVEMENTS -->
+    <section class="section alt" id="education">
+      <div class="container two-col">
+        <div>
+          <div class="head left">
+            <p class="kicker reveal-up"><span>06</span> Education</p>
+            <h2 class="reveal-up">Where I <em>learned</em></h2>
+          </div>
+          <div class="edu-list" id="eduList"></div>
+        </div>
+        <div>
+          <div class="head left">
+            <p class="kicker reveal-up"><span>07</span> Achievements</p>
+            <h2 class="reveal-up">Recognition &amp; <em>growth</em></h2>
+          </div>
+          <div class="ach-grid" id="achList"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card reveal-up">
+          <div class="contact-glow" aria-hidden="true"></div>
+          <div class="contact-top">
+            <div>
+              <p class="kicker"><span>08</span> Contact</p>
+              <h2>Let's build something <em>intelligent</em></h2>
+              <p class="sub">Open to full-stack roles, AI automation and freelance collaborations.</p>
+              <div class="contact-actions">
+                <a class="btn btn-glow magnetic" href="mailto:mukulraj123cs@gmail.com">Email me <span class="arr">→</span></a>
+                <a class="btn btn-outline magnetic" href="assets/Mukul_Raj_Resume.pdf" download>Download resume</a>
+              </div>
+            </div>
+            <img class="contact-photo" src="assets/img/mukul-full.jpg" alt="Mukul Raj" loading="lazy" width="1387" height="2160" />
+          </div>
+          <div class="contact-links" id="contactCards"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-in">
+      <p>© <span id="year"></span> Mukul Raj · Bangalore, India</p>
+      <div class="socials small" data-socials></div>
+      <a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
